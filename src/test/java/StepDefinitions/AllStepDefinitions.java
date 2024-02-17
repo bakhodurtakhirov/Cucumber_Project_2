@@ -89,14 +89,14 @@ public class AllStepDefinitions extends GWD {
         }
     }
 
-    @And("Is the length of the list equal to 3")
+/*    @And("Is the length of the list equal to 3")
     public void isTheLengthOfTheListEqualTo3() {
         if (rp.getCardItemList().size() == 3) {
             System.out.println("Lengths equal 3");
         } else {
             System.out.println("Lengths not equal to 3");
         }
-    }
+    }*/
 
     @And("Verification is performed and the previous page is returned.")
     public void verificationIsPerformedAndThePreviousPageIsReturned(DataTable value) {

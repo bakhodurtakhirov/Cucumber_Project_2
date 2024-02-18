@@ -38,8 +38,9 @@ public class Parent {
 
     public void verifyContainsText(WebElement element, String value) {
         wait.until(ExpectedConditions.textToBePresentInElement(element, value));
+        System.out.println("element.getText() = " + element.getText());
         Assert.assertTrue(element.getText().toLowerCase().contains(value.toLowerCase()));
-        new Actions(GWD.getDriver()).sendKeys(Keys.ESCAPE).build().perform();
+//        new Actions(GWD.getDriver()).sendKeys(Keys.ESCAPE).build().perform();
     }
 
     public void selectContainElement(WebElement element, String value) {

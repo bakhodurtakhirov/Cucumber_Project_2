@@ -50,14 +50,78 @@ public class LocatorPage extends Parent {
                 return this.noTransactionsFoundMessage;
             case "insufficientFundsMessage":
                 return this.insufficientFundsMessage;
-            
-            
-            
-            
-            
-            
-                
-            
+            case "registerButton":
+                return  this.registerButton;
+            case "customerFirstName":
+                return this.customerFirstName;
+            case "customerLastName":
+                return this.customerLastName;
+            case "customerAddress":
+                return  this.customerAddress;
+            case "customerAddressCity":
+                return this.customerAddressCity;
+            case "customerAddressState":
+                return this.customerAddressState;
+            case "customerAddressZipCode":
+                return this.customerAddressZipCode;
+            case "customerPhoneNumber":
+                return this.customerPhoneNumber;
+            case "customerSSN":
+                return this.customerSSN;
+            case "customerUserName":
+                return this.customerUserName;
+            case "customerPassword":
+                return this.customerPassword;
+            case "customerPasswordConfirm":
+                return this.customerPasswordConfirm;
+            case "registerComplete":
+                return this.registerComplete;
+            case "registerSuccessMessage":
+                return this.registerSuccessMessage;
+            case "logOut":
+                return this.logOut;
+            case "myAccountSuccess":
+                return this.myAccountSuccess;
+            case "myAccountError":
+                return this.myAccountError;
+            case "billPay":
+                return this.billPay;
+            case "payeeName":
+                return this.payeeName;
+            case "payeeAddress":
+                return this.payeeAddress;
+            case "payeeCity":
+                return this.payeeCity;
+            case "payeeState":
+                return this.payeeState;
+            case "payeeZipCode":
+                return this.payeeZipCode;
+            case "payeePhone":
+                return this.payeePhone;
+            case "payeeAccountNumber":
+                return this.payeeAccountNumber;
+            case "payeeAccountNumberVerify":
+                return this.payeeAccountNumberVerify;
+            case "payeeAmount":
+                return this.payeeAmount;
+            case "payeeSendPayment":
+                return this.payeeSendPayment;
+            case "payeeSuccessMessage":
+                return this.payeeSuccessMessage;
+            case "accountOverview":
+                return this.accountOverview;
+            case "accountNumber":
+                return this.accountNumber;
+            case "paymentCompleteMessage":
+                return this.paymentCompleteMessage;
+            case "openNewAccount":
+                return this.openNewAccount;
+            case "openAccDropDownMenu":
+                return this.openAccDropDownMenu;
+            case "newAccountSuccess":
+                return this.newAccountSuccess;
+            case "openNewAccount12":
+                return this.openNewAccount12;
         }
         return null;
     }
@@ -185,27 +249,6 @@ public class LocatorPage extends Parent {
     private WebElement newAccountSuccess;
     @FindBy(css = "input[type=\"submit\"]")
     private WebElement openNewAccount12;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
 }
